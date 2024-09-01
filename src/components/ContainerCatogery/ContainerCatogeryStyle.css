@@ -1,0 +1,32 @@
+ .ContainerCatogery{
+    gap: 20px;
+    width: 257.75px; 
+    height: 218px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;  
+
+}
+.ContainerCatogery h1{
+/* font-size: 20px; */
+font-size: 1.25rem;
+font-weight: 600;
+color: #2F2F2F;
+font-family: Poppins;
+line-height: 60px;
+text-align: center;
+
+
+}
+.ContainerCatogery p{
+font-size:1rem;
+font-weight: 500;
+color:#7D7D7D;
+text-align: center;
+}
+
+
+
+
+

@@ -1,0 +1,76 @@
+.Promotion {
+    display: flex;
+    margin-top: 50px;
+}
+
+.Promotion .ContainerPromo .images img {
+
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.Promotion .ContainerPromo {
+
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.Promotion .ContainerPromo .paragraph {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    color: white;
+    text-align: center;
+}
+
+.Promotion .ContainerPromo h3 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+
+}
+
+.Promotion .ContainerPromo h1 {
+    font-family: Volkhov;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.815rem;
+
+}
+
+.Promotion .ContainerPromo button {
+    width: 11.438vw;
+    height: 3.625rem;
+    border-radius: 4px;
+    border: 1px solid;
+    background-color: transparent;
+    font-size: 0.938rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 992px) {
+    .Promotion {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+
+    .Promotion .ContainerPromo h1 {
+
+        text-align: center;
+
+    }
+
+    .Promotion .ContainerPromo button {
+        width: max-content;
+    }
+
+}

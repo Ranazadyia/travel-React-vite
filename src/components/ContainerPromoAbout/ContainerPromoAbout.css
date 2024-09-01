@@ -1,0 +1,84 @@
+.ContainerPromoAbout {
+    margin: 50px 0px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*     flex-wrap: wrap; */
+
+}
+
+.ContainerPromoAbout .text {
+    width: 100%;
+}
+
+.ContainerPromoAbout .text h3,
+.ContainerPromoAbout .text h1,
+.ContainerPromoAbout .text p,
+.ContainerPromoAbout .text button {
+    margin: 0;
+}
+
+.ContainerPromoAbout .image {
+    max-width: 100%;
+    height: auto;
+}
+
+.ContainerPromoAbout .text h3 {
+    text-align: start;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 27px;
+    color: #DF6951;
+}
+
+.ContainerPromoAbout .text h1 {
+    font-family: Poppins;
+    max-width: 613px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 48px;
+    color: #181E4B;
+    margin-top: 10px;
+
+}
+
+.ContainerPromoAbout .text p {
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2F2F2F;
+    margin-top: 15px;
+    max-width: 550.64px;
+
+}
+
+.ContainerPromoAbout .text button {
+    width: 175px;
+    height: 50px;
+    border-radius: 4px;
+    margin-top: 20px;
+    background-color: #DF6951;
+    color: white;
+    border: none;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .ContainerPromoAbout {
+        font-size: 10px;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .ContainerPromoAbout .text {
+        text-align: center;
+    }
+
+    .ContainerPromoAbout .image img {
+        width: 100%;
+        max-width: 100%;
+    }
+}

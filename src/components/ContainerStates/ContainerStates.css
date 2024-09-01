@@ -1,0 +1,99 @@
+.ContainerStates {
+    background-color: #F5F3F3;
+    max-width: 386px;
+    height: 438px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+
+.ContainerStates .coverimg {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.ContainerStates .top_states {
+    background-color: #DF6951;
+    width: 100%;
+    height: 39px;
+    margin-top: -39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.ContainerStates .top_states span {
+    font-size: 12.97px;
+    font-weight: 500;
+    line-height: 19.46px;
+    color: #F5F3F3;
+
+}
+
+
+.ContainerStates .content-states {
+    width: 90%;
+}
+
+.ContainerStates .content-states h2 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    color: #181E4B;
+
+}
+
+
+
+.ContainerStates .content-states p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    /* width: 318.5px; */
+    height: 45px;
+    color: #181E4B;
+}
+
+
+
+.ContainerStates .content-states h2,
+p {
+    text-align: left;
+    align-self: flex-start;
+}
+
+.ContainerStates .bottom-states {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.ContainerStates .bottom-states span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.ContainerStates .star {
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+
+@media screen and (max-width: 992px) {
+    .ContainerStates {
+        width: 80vw;
+    }
+}

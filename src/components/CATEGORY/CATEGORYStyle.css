@@ -1,0 +1,34 @@
+.CATEGORY{
+   margin-top: 50px;  
+    margin-left:3.125rem;
+    margin-bottom: 100px; 
+    
+}
+
+.CATEGORY .child {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap; 
+
+      
+}
+.CATEGORY .title{
+   text-align: center;
+}
+
+.CATEGORY .title h1{
+font-size:3.125rem;
+font-weight: 700;
+color: #1E1D4C;
+}
+.CATEGORY .title h3{
+font-size: 18px;
+font-weight: 600;
+color:#DF6951;
+}
+
+

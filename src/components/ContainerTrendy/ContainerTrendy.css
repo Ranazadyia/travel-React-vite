@@ -1,0 +1,99 @@
+.ContainerTrendy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.ContainerTrendy .imges {
+    width: 100%;
+}
+
+.ContainerTrendy .MainImage {
+    display: flex;
+    position: relative;
+    top: 30px;
+    width: 100%;
+}
+
+
+.ContainerTrendy .content {
+    background-color: #F9F9F9;
+    padding: 10px;
+
+}
+
+.ContainerTrendy .imges .subImage {
+    position: absolute;
+
+
+}
+
+.top {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.ContainerTrendy .svgTop {
+    margin-right: 10px;
+
+}
+
+.ContainerTrendy .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+/* .ContainerTrendy .title {} */
+
+.ContainerTrendy .people {
+    margin-right: 50px;
+}
+
+.ContainerTrendy p {
+    width: 100%;
+    /* height: 107px; */
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.4px;
+    letter-spacing: 0.05em;
+    color: #5E6282;
+    margin-bottom: 20px;
+}
+
+
+.ContainerTrendy button {
+    margin-top: 10px;
+    width: 150.29px;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    background: #DF6951;
+    margin-bottom: 20px;
+
+}
+
+@media screen and (max-width: 992px) {
+    .ContainerTrendy {
+        width: 80vw;
+    }
+}
